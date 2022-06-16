@@ -1,6 +1,6 @@
 # Full Stack Exam Apis
 
-Para auxiliá-lo no desenvolvimento da aplicação de detecção de objetos, desenvolvemos duas APIs: [Request bucket URL](./get_upload_url_api) e [Request Processing Status](./get_processing_status_api).
+Para auxiliá-lo no desenvolvimento da aplicação de detecção de objetos, desenvolvemos duas APIs: [Request bucket URL](./get_upload_url_api) e [Request Processing Status](./get_processing_status_api). Para utilizá-las, você precisará dos respectivos tokens de acesso fornecidos por email.
 
 Dado um arquivo compactado (.zip) contendo as imagens (.jpg ou .png), pensamos na seguinte pipeline de uso:
 
@@ -21,6 +21,8 @@ Dado um arquivo compactado (.zip) contendo as imagens (.jpg ou .png), pensamos n
     - Atualiza o status do batch id no banco de dados.
 3. Dado o batch id obtido em 1., utilizamos a API Request Processing Status. Isso trigga uma função AWS Lambda (Get Processing Status) que:
     - Faz o request do batch id no banco de dados para obter o status de processamento e os resultados da detecção de objetos para o batch.
+
+Você pode encontrar um exemplo da pipeline implementada em Python [aqui](./test_all_apis.py).
 
 ---------------------------------------------------------------------------------
 ## Dúvidas
