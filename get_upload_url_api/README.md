@@ -4,6 +4,8 @@
 - Autenticação: JWT token
 - Descrição: Esta API recebe uma requisição HTTP via GET e retorna uma URL com dados de acesso a um bucket privado para fazer upload de um arquivo comprimido com imagens. Além disso, também é retornado o ID da requisição, que deverá ser usado posteriormente para consulta de status de processamento. A URL será válida para upload por 10 minutos.
 
+#### **nota: as imagens devem ser enviadas em um único arquivo comprimido (.zip). Outros formatos não são suportados.**
+
 <br>
 
 ## <div align="center">Exemplos</div>

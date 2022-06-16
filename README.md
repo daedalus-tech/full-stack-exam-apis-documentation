@@ -1,6 +1,8 @@
 # Full Stack Exam Apis
 
-Para auxiliá-lo no desenvolvimento da aplicação de detecção de objetos, desenvolvemos duas APIs: [Request bucket URL](./get_upload_url_api) e [Request Processing Status](./get_processing_status_api). Para utilizá-las, você precisará dos respectivos tokens de acesso fornecidos por email.
+Para auxiliá-lo no desenvolvimento da aplicação de detecção de objetos, desenvolvemos duas APIs: Request e Request Processing Status. Para utilizá-las, você precisará dos respectivos tokens de acesso fornecidos por email. Você pode acessar as documentações delas aqui:
+- [Request bucket URL](./get_upload_url_api);
+- [Request Processing Status](./get_processing_status_api).
 
 Dado um arquivo compactado (.zip) contendo as imagens (.jpg ou .png), pensamos na seguinte pipeline de uso:
 
