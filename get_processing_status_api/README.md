@@ -1,5 +1,6 @@
 # <div align="center">Request bucket URL</div>
 - Nome: Request Processing Status
+- API URL: https://8kad2d3fg6.execute-api.sa-east-1.amazonaws.com/default/full-stack-exam-get-processing-status
 - Método: GET
 - Autenticação: JWT token
 - Descrição: Esta API recebe uma requisição HTTP via GET e, passando o batch id como query string, retorna o stauts do processamento do batch.

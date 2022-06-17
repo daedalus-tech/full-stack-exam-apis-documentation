@@ -1,5 +1,6 @@
 # <div align="center">Request bucket URL</div>
 - Nome: Request bucket URL
+- API URL: https://8wvaarvrsc.execute-api.sa-east-1.amazonaws.com/default/fullstack_exam_get_presigned_url
 - Método: GET
 - Autenticação: JWT token
 - Descrição: Esta API recebe uma requisição HTTP via GET e retorna uma URL com dados de acesso a um bucket privado para fazer upload de um arquivo comprimido com imagens. Além disso, também é retornado o ID da requisição, que deverá ser usado posteriormente para consulta de status de processamento. A URL será válida para upload por 10 minutos.
