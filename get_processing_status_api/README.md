@@ -1,4 +1,4 @@
-# <div align="center">Request bucket URL</div>
+# <div align="center">Request Processing Status</div>
 - Nome: Request Processing Status
 - API URL: https://8kad2d3fg6.execute-api.sa-east-1.amazonaws.com/default/full-stack-exam-get-processing-status
 - Método: GET
