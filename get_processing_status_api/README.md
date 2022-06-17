@@ -177,4 +177,7 @@ O resultado do request possui os seguintes campos:
 - results: um dicionário em contendo as informações para cada imagem no batch. As Keys dos dicionários são os nomes das imagens e os valores são listas contendo as detecções:
     - class: classe do objeto identificado. Você pode encontrar a relação entre classe e id [aqui](./classes.csv).
     - conf: confiança da detecção.
-    - position: posição da detecção. As coordenadas são x0, y0, x1, y1. O ponto superior esquerdo da detecção é composto por (x0, y0) e, o ponto inferior direito, por (x1, y1).
+    - position: posição da detecção. As coordenadas são x0, y0, x1, y1. O ponto superior esquerdo da detecção é composto por (x0, y0) e, o ponto inferior direito, por (x1, y1). Você pode ver um exemplo na imagem a seguir:
+
+
+![alt text](../.images/coords.png)
