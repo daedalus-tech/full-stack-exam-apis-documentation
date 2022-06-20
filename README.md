@@ -25,6 +25,7 @@ Dado um arquivo compactado (.zip) contendo as imagens (.jpg ou .png), pensamos n
     - Faz o request do batch id no banco de dados para obter o status de processamento e os resultados da detecção de objetos para o batch.
 
 Você pode encontrar um exemplo da pipeline implementada em Python [aqui](./test_all_apis.py).
+Você pode encontrar algumas imagens para utilizar nos testes [aqui](./images.zip).
 
 ---------------------------------------------------------------------------------
 ## Dúvidas
