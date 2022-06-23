@@ -30,4 +30,4 @@ Você pode encontrar algumas imagens para utilizar nos testes [aqui](./images.zi
 
 ---------------------------------------------------------------------------------
 ## Dúvidas
-Entre em contato com bruno.yudy@daedalus-tech.com
+Entre em contato com bruno.yudi@daedalus-tech.com
